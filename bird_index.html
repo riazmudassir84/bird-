@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎁 Claim Your $5 AI Gift</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #00c9ff, #92fe9d, #f6d365); /* Blue → Green → Gold */
+      background-size: 300% 300%;
+      animation: gradientBG 10s ease infinite;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      margin: 100px auto;
+      max-width: 90%;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #ffffffde;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+      color: #eeeeee;
+    }
+
+    .btn {
+      background: linear-gradient(to right, #00c9ff, #92fe9d, #f6d365);
+      color: #000;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.07);
+    }
+
+    .note {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #ffffffa8;
+    }
+
+    .glow {
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #00c9ff, 0 0 30px #92fe9d;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 40px #f6d365, 0 0 60px #f6d365;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="glow">🎉 You’ve Been Selected for a $5 AI Bonus!</h1>
+    <p>This exclusive AI hack has helped 1000s earn daily. Click below to claim your gift.</p>
+    <button class="btn" onclick="goNow()">🎁 Claim Now</button>
+    <p class="note">Ads will appear here after approval. Redirection will be activated later.</p>
+  </div>
+
+  <script>
+    function goNow() {
+      alert("Redirect will be activated after ads are approved and placed.");
+    }
+  </script>
+
+</body>
+</html>
